@@ -8,28 +8,28 @@ const projects = [
     description: "Developed a voter database management system utilizing various data structures to efficiently store, search, and process voter data. Optimized for best-case time complexity with comprehensive edge case testing.",
     tech: ["C++", "Data Structures", "Algorithms"],
     date: "November 2024 – December 2024",
-    github: "https://github.com/Markus112105/voter-database"
+    github: "https://github.com/Markus112105/Voter-Database-System"
   },
   {
     title: "IEEE Floating Point Manipulation",
     description: "Developed a function to convert IEEE double-precision values to the floatx format while preserving key floating-point conventions. Utilized bitwise operations and custom utilities for efficient floating-point component manipulation.",
     tech: ["C", "IEEE Standards", "Bit Manipulation"],
     date: "November 2024 – December 2024",
-    github: "https://github.com/Markus112105/ieee-float"
+    github: "https://github.com/Markus112105/IEEE-Floating-Point-Manipulation"
   },
   {
     title: "EMA Trading Strategy",
     description: "Developed and implemented a stock trading strategy using exponential moving averages (EMAs) to predict price movements and optimize buy/sell decisions. Processed extensive datasets of historical stock prices using Python.",
     tech: ["Python", "Data Analysis", "Financial Analysis"],
     date: "March 2024",
-    github: "https://github.com/Markus112105/ema-trading"
+    github: "https://github.com/Markus112105/EMAstrategy"
   },
   {
     title: "Duck Hunt Game",
     description: "Crafted an immersive Duck Hunt game using Python and Pygame, designing gameplay mechanics, visuals, and interactive elements. Collaborated within a team environment to deliver a visually compelling and engaging game.",
     tech: ["Python", "Pygame", "Game Development"],
     date: "November 2023 – December 2023",
-    github: "https://github.com/Markus112105/duck-hunt"
+    github: "https://github.com/Markus112105/Cs-110-Final-Project"
   }
 ];
 

@@ -39,7 +39,7 @@ export default function Contact() {
               </Button>
               <Button asChild variant="outline" className="flex-1">
                 <a
-                  href="https://linkedin.com/in/markus-massina/"
+                  href="https://www.linkedin.com/in/markus-massina/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
