@@ -42,6 +42,21 @@ npm run dev
 
 4. Open [http://localhost:5000](http://localhost:5000) in your browser
 
+### Deploying to GitHub Pages
+
+1. In your GitHub repository settings, ensure GitHub Pages is enabled:
+   - Go to Settings > Pages
+   - Set the source branch to `gh-pages`
+   - Save the settings
+
+2. Deploy the site:
+```bash
+npm run deploy
+```
+
+This will build your site and push it to the `gh-pages` branch. Your site will be available at:
+`https://[your-username].github.io/portfolio`
+
 ### Building for Production
 
 To create a production build:
