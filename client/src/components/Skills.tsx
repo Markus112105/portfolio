@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { SiCplusplus, SiC, SiPython, SiJavascript, SiHtml5, SiCss3, SiLinux, SiGit, SiDocker, SiMongodb, SiMysql } from "react-icons/si";
 import { DiJava } from "react-icons/di";
+import { Code2 } from "lucide-react";
 
 const skills = [
   { name: "C++", icon: SiCplusplus },
@@ -14,6 +15,7 @@ const skills = [
   { name: "Docker", icon: SiDocker },
   { name: "MongoDB", icon: SiMongodb },
   { name: "MySQL", icon: SiMysql },
+  { name: "x86 Assembly", icon: Code2 },
 ];
 
 export default function Skills() {
