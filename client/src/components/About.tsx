@@ -10,8 +10,7 @@ export default function About() {
             <p className="text-muted-foreground leading-7">
               I'm currently pursuing my Bachelor of Science in Computer Science at Binghamton University's 
               Thomas J. Watson College of Engineering and Applied Science, with an expected graduation in May 2027. 
-              Maintaining a strong academic record with a GPA of 3.43/4.00, I've earned a place on the Dean's List 
-              in Fall 2022.
+              I plan to continue my education by pursuing a graduate degree to further deepen my expertise in computer science.
             </p>
             <p className="text-muted-foreground leading-7 mt-4">
               My academic journey includes comprehensive coursework in Data Structures and Algorithms, 
