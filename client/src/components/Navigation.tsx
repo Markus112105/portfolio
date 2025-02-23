@@ -1,15 +1,18 @@
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
+// Determine the base path for GitHub Pages
+const basePath = import.meta.env.DEV ? '' : `/${window.location.pathname.split('/')[1]}`;
+
 const navigation = [
-  { name: "About", href: "#about" },
-  { name: "Experience", href: "#experience" },
-  { name: "Projects", href: "#projects" },
-  { name: "Skills", href: "#skills" },
-  { name: "Contact", href: "#contact" },
+  { name: "About", href: `${basePath}#about` },
+  { name: "Experience", href: `${basePath}#experience` },
+  { name: "Projects", href: `${basePath}#projects` },
+  { name: "Skills", href: `${basePath}#skills` },
+  { name: "Contact", href: `${basePath}#contact` },
 ];
 
 export default function Navigation() {
@@ -19,7 +22,7 @@ export default function Navigation() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <nav className="container flex h-14 items-center">
         <div className="mr-4 hidden md:flex">
-          <a href="#" className="mr-6 flex items-center space-x-2">
+          <a href={basePath || "#"} className="mr-6 flex items-center space-x-2">
             <span className="font-bold">Portfolio</span>
           </a>
           <div className="flex gap-6">
@@ -34,7 +37,7 @@ export default function Navigation() {
             ))}
           </div>
         </div>
-        
+
         <Sheet open={isOpen} onOpenChange={setIsOpen}>
           <SheetTrigger asChild className="md:hidden">
             <Button variant="ghost" size="icon">
