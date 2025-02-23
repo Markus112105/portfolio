@@ -1,29 +1,32 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Github } from "lucide-react";
+import { Github } from "lucide-react";
 
 const projects = [
   {
-    title: "E-commerce Platform",
-    description: "A full-stack e-commerce solution with React, Node.js, and PostgreSQL.",
-    tech: ["React", "Node.js", "PostgreSQL", "Stripe"],
-    github: "https://github.com/johndoe/ecommerce",
-    demo: "https://ecommerce-demo.com",
+    title: "Voter Database",
+    description: "Developed a voter database management system utilizing various data structures to efficiently store, search, and process voter data. Optimized for best-case time complexity with comprehensive edge case testing.",
+    tech: ["C++", "Data Structures", "Algorithms"],
+    date: "November 2024 – December 2024"
   },
   {
-    title: "Task Management App",
-    description: "Real-time task management application with collaborative features.",
-    tech: ["React", "Socket.io", "Express", "MongoDB"],
-    github: "https://github.com/johndoe/taskapp",
-    demo: "https://taskapp-demo.com",
+    title: "IEEE Floating Point Manipulation",
+    description: "Developed a function to convert IEEE double-precision values to the floatx format while preserving key floating-point conventions. Utilized bitwise operations and custom utilities for efficient floating-point component manipulation.",
+    tech: ["C", "IEEE Standards", "Bit Manipulation"],
+    date: "November 2024 – December 2024"
   },
   {
-    title: "Portfolio Website",
-    description: "Modern portfolio website built with React and Tailwind CSS.",
-    tech: ["React", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com/johndoe/portfolio",
-    demo: "https://portfolio-demo.com",
+    title: "EMA Trading Strategy",
+    description: "Developed and implemented a stock trading strategy using exponential moving averages (EMAs) to predict price movements and optimize buy/sell decisions. Processed extensive datasets of historical stock prices using Python.",
+    tech: ["Python", "Data Analysis", "Financial Analysis"],
+    date: "March 2024"
   },
+  {
+    title: "Duck Hunt Game",
+    description: "Crafted an immersive Duck Hunt game using Python and Pygame, designing gameplay mechanics, visuals, and interactive elements. Collaborated within a team environment to deliver a visually compelling and engaging game.",
+    tech: ["Python", "Pygame", "Game Development"],
+    date: "November 2023 – December 2023"
+  }
 ];
 
 export default function Projects() {
@@ -35,11 +38,14 @@ export default function Projects() {
           {projects.map((project, index) => (
             <Card key={index}>
               <CardHeader>
-                <CardTitle>{project.title}</CardTitle>
+                <div className="flex justify-between items-start">
+                  <CardTitle>{project.title}</CardTitle>
+                  <span className="text-sm text-muted-foreground">{project.date}</span>
+                </div>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">{project.description}</p>
-                <div className="flex flex-wrap gap-2 mb-4">
+                <div className="flex flex-wrap gap-2">
                   {project.tech.map((tech, i) => (
                     <span
                       key={i}
@@ -48,20 +54,6 @@ export default function Projects() {
                       {tech}
                     </span>
                   ))}
-                </div>
-                <div className="flex gap-4">
-                  <Button variant="outline" size="sm" asChild>
-                    <a href={project.github} target="_blank" rel="noopener noreferrer">
-                      <Github className="mr-2 h-4 w-4" />
-                      Code
-                    </a>
-                  </Button>
-                  <Button size="sm" asChild>
-                    <a href={project.demo} target="_blank" rel="noopener noreferrer">
-                      <ExternalLink className="mr-2 h-4 w-4" />
-                      Demo
-                    </a>
-                  </Button>
                 </div>
               </CardContent>
             </Card>

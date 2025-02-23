@@ -8,14 +8,19 @@ export default function About() {
         <Card>
           <CardContent className="pt-6">
             <p className="text-muted-foreground leading-7">
-              I'm a passionate full stack developer with over 5 years of experience building web applications. 
-              I specialize in React, Node.js, and modern web technologies. My journey in tech started 
-              when I built my first website in college, and I've been hooked ever since.
+              I'm currently pursuing my Bachelor of Science in Computer Science at Binghamton University's 
+              Thomas J. Watson College of Engineering and Applied Science, with an expected graduation in May 2027. 
+              Maintaining a strong academic record with a GPA of 3.43/4.00, I've earned a place on the Dean's List 
+              in Fall 2022.
             </p>
             <p className="text-muted-foreground leading-7 mt-4">
-              When I'm not coding, you can find me contributing to open source projects, writing technical 
-              blog posts, or exploring new technologies. I believe in writing clean, maintainable code 
-              and building user-friendly applications that solve real problems.
+              My academic journey includes comprehensive coursework in Data Structures and Algorithms, 
+              Object-Oriented Programming, Discrete Math, and Linear Algebra. I'm passionate about applying 
+              these theoretical foundations to practical software development and problem-solving.
+            </p>
+            <p className="text-muted-foreground leading-7 mt-4">
+              Beyond academics, I'm actively involved in the Association of Computing Machinery (ACM) and 
+              Binghamton Mens Club Golf, where I develop both my technical expertise and leadership skills.
             </p>
           </CardContent>
         </Card>

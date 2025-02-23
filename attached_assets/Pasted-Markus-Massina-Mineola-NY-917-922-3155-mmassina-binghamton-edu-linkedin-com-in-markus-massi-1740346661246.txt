@@ -1,0 +1,54 @@
+Markus Massina
+Mineola, NY | (917) 922-3155 | mmassina@binghamton.edu | linkedin.com/in/markus-massina/ | github.com/Markus112105
+EDUCATION                                                                                                                                                                   
+Binghamton University, State University of New York, Thomas J. Watson College of Engineering and Applied Science
+Bachelor of Science in Computer Science Expected May 2027
+Cumulative GPA: 3.43/4.00 | Dean’s List: Fall 2022
+Relevant Coursework: Data Structures and Algorithms, Object-Oriented Programming, Discrete Math, Linear Algebra
+TECHNICAL SKILLS                                                                                                                                                    
+Languages: C++, C, Java, Python, Javascript, X-86 Assembly, R, HTML/CSS, SQL
+Software and OS: Visual Studio Code, Jupyter Notebook, Git, Linux, Vim, IntelliJ, Docker, PyCharm
+Additional: Pandas, NumPy, Matplotlib, MongoDB, MySQL, TCP/IP, Data Visualization, Predictive Analysis
+PROFESSIONAL EXPERIENCE                                                                                                                                    
+TCI Technologies, Cybersecurity Intern | Mineola, NY June 2023 – August 2023
+● Acquired practical expertise in security risk assessment, computer troubleshooting, physical setup and repair, bolstering
+proficiency in threat analysis, security tool assessment, and incident response.
+● Contributed to quality assurance efforts by providing valuable feedback on cybersecurity training materials developed by
+TCI Technologies.
+● Demonstrated a strong commitment to enhancing cybersecurity practices, actively participating in quality improvement
+initiatives, including the practical application of Python for security enhancements.
+Law Office of Sylvia Cabana, Tech Support/Paralegal | Garden City, NY November 2019 – December 2022
+● Supported the input of critical information for political asylum applications, ensuring accuracy and completeness.
+● Played a pivotal role in creating and managing web accounts tailored to the needs of immigrants, enhancing their digital
+integration and access to resources.
+● Facilitated the application process for federal and state documents, streamlining bureaucratic procedures for clients.
+PROJECT EXPERIENCE                                                                                                                                               
+Voter Database, C++ Developer November 2024 – December 2024
+● Developed a voter database management system utilizing various data structures to efficiently store, search, and process
+voter data.
+● Optimized the program to achieve best-case time complexity and developed comprehensive edge case tests to ensure
+robustness and correctness.
+IEEE Floating Point Manipulation, C Developer November 2024 – December 2024
+● Developed a function to convert IEEE double-precision values to the floatx format while preserving key floating-point
+conventions, including sign, exponent biasing, and special cases.
+● Utilized bitwise operations and custom utilities to efficiently manipulate and extract floating-point components, ensuring
+adherence to IEEE standards while supporting diverse bit configurations.
+EMA Trading Strategy, Python Developer March 2024 – March 2024
+● Developed and implemented a stock trading strategy using exponential moving averages (EMAs) to predict price
+movements and optimize buy/sell decisions.
+● Gathered and processed extensive datasets of historical stock prices and market information using Python and relevant data
+analysis libraries.
+Duck Hunt Game, Python Developer November 2023 – December 2023
+● Crafted an immersive Duck Hunt game by combining Python and Pygame expertise to design gameplay mechanics, visuals,
+and interactive elements for a captivating user experience.
+● Actively collaborated within a team environment, contributing innovative ideas to deliver a visually compelling and
+engaging game.
+LEADERSHIP AND INVOLVEMENT EXPERIENCE                                                                                              
+Association of Computing Machinery (ACM), Member August 2024 – Present
+● Attended weekly meetings to discuss emerging technologies, algorithms, and software development practices, enhancing
+technical knowledge and collaboration skills.
+● Engaged in industry networking events and mentorship programs, connecting with professionals and peers to explore
+advancements in computing and career opportunities.
+Binghamton Mens Club Golf, Member August 2023 – Present
+● Actively participated in team practices and competitions, demonstrating leadership, teamwork, and strategic
+decision-making in a competitive environment.

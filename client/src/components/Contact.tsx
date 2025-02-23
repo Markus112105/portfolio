@@ -13,13 +13,13 @@ export default function Contact() {
           </CardHeader>
           <CardContent className="space-y-4">
             <p className="text-muted-foreground">
-              I'm always open to new opportunities and interesting projects.
+              I'm always eager to connect with fellow developers and explore new opportunities.
               Feel free to reach out through any of the following channels:
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button asChild variant="outline" className="flex-1">
                 <a
-                  href="mailto:john@example.com"
+                  href="mailto:mmassina@binghamton.edu"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -29,7 +29,7 @@ export default function Contact() {
               </Button>
               <Button asChild variant="outline" className="flex-1">
                 <a
-                  href="https://github.com/johndoe"
+                  href="https://github.com/Markus112105"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -39,7 +39,7 @@ export default function Contact() {
               </Button>
               <Button asChild variant="outline" className="flex-1">
                 <a
-                  href="https://linkedin.com/in/johndoe"
+                  href="https://linkedin.com/in/markus-massina/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

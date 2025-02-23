@@ -2,22 +2,16 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [
   {
-    company: "Tech Corp",
-    position: "Senior Full Stack Developer",
-    period: "2020 - Present",
-    description: "Led development of core product features, mentored junior developers, and improved application performance by 40%.",
+    company: "TCI Technologies",
+    position: "Cybersecurity Intern",
+    period: "June 2023 – August 2023",
+    description: "Acquired practical expertise in security risk assessment, computer troubleshooting, and incident response. Contributed to quality assurance efforts and provided valuable feedback on cybersecurity training materials. Actively participated in quality improvement initiatives, including the practical application of Python for security enhancements.",
   },
   {
-    company: "Startup Inc",
-    position: "Full Stack Developer",
-    period: "2018 - 2020",
-    description: "Built and maintained multiple client projects using React and Node.js. Implemented CI/CD pipelines.",
-  },
-  {
-    company: "Web Solutions",
-    position: "Frontend Developer",
-    period: "2016 - 2018",
-    description: "Developed responsive web applications and improved user experience through modern frontend practices.",
+    company: "Law Office of Sylvia Cabana",
+    position: "Tech Support/Paralegal",
+    period: "November 2019 – December 2022",
+    description: "Supported critical information input for political asylum applications, ensuring accuracy and completeness. Created and managed web accounts for immigrants, enhancing digital integration and access to resources. Facilitated federal and state document application processes, streamlining bureaucratic procedures for clients.",
   },
 ];
 

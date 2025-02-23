@@ -1,15 +1,19 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { SiTypescript, SiReact, SiNodedotjs, SiPostgresql, SiMongodb, SiDocker, SiAmazon, SiGit } from "react-icons/si";
+import { SiCplusplus, SiC, SiPython, SiJavascript, SiHtml5, SiCss3, SiLinux, SiGit, SiDocker, SiMongodb, SiMysql } from "react-icons/si";
+import { DiJava } from "react-icons/di";
 
 const skills = [
-  { name: "TypeScript", icon: SiTypescript },
-  { name: "React", icon: SiReact },
-  { name: "Node.js", icon: SiNodedotjs },
-  { name: "PostgreSQL", icon: SiPostgresql },
-  { name: "MongoDB", icon: SiMongodb },
-  { name: "Docker", icon: SiDocker },
-  { name: "AWS", icon: SiAmazon },
+  { name: "C++", icon: SiCplusplus },
+  { name: "C", icon: SiC },
+  { name: "Java", icon: DiJava },
+  { name: "Python", icon: SiPython },
+  { name: "JavaScript", icon: SiJavascript },
+  { name: "HTML/CSS", icon: SiHtml5 },
+  { name: "Linux", icon: SiLinux },
   { name: "Git", icon: SiGit },
+  { name: "Docker", icon: SiDocker },
+  { name: "MongoDB", icon: SiMongodb },
+  { name: "MySQL", icon: SiMysql },
 ];
 
 export default function Skills() {
