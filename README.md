@@ -91,8 +91,3 @@ portfolio/
 - Edit `theme.json` to customize colors and appearance
 - Modify `tailwind.config.ts` for Tailwind CSS configuration
 - Update content in the components under `client/src/components/`
-
-## Contact
-- Email: mmassina@binghamton.edu
-- GitHub: https://github.com/Markus112105
-- LinkedIn: https://www.linkedin.com/in/markus-massina/
